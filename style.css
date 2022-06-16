@@ -247,11 +247,19 @@ footer {
     margin-left: 5em;
 }
 
+.social {
+    text-decoration: none;
+}
+
 .social + .social {
     margin-left: 1.2em;
 }
 
-.social:hover {
+.social-path {
+    transition: all 0.15s ease-in;
+}
+
+.social:hover  .social-path{
     fill: white;
 }
 
