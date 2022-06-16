@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]('Screenshot 2022-06-16 at 13-46-58 Frontend Mentor Sunnyside agency landing page.png')
+![]('/Users/andrewcastellano/sunnyside-agency-landing-page-main/Screenshot 2022-06-16 at 13-46-58 Frontend Mentor Sunnyside agency landing page.png')
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
