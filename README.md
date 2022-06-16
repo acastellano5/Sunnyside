@@ -11,7 +11,7 @@ Users should be able to:
 
 ## Links
 
-- Live Site URL: https://effortless-cendol-a29497.netlify.app/
+- Live Site URL: https://shiny-lebkuchen-807dd4.netlify.app/
 
 ## Built with
 
