@@ -240,8 +240,7 @@ footer {
 }
 
 .footer-link:hover {
-    border-bottom: 1px solid hsl(167, 40%, 24%);
-    color: hsl(167, 40%, 24%);
+    color: white;
 }
 
 .footer-link + .footer-link {
@@ -250,6 +249,10 @@ footer {
 
 .social + .social {
     margin-left: 1.2em;
+}
+
+.social:hover {
+    fill: white;
 }
 
 @media (max-width: 768px) {
