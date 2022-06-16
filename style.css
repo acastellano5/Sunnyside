@@ -1,0 +1,358 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    max-width: 2000px;
+}
+
+
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('images/desktop/image-header.jpg');
+    background-position: bottom center;
+    background-size: cover;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar-link {
+    color: white;
+    font-size: 1.1rem;
+    font-family: Barlow, sans-serif; 
+    text-decoration: none;
+    transition: all 0.15s ease-in;
+}
+
+.navbar-link:hover {
+    color: hsl(212, 27%, 19%);
+}
+
+.navbar-link + .navbar-link {
+    margin-left: 2em;
+}
+
+.menu-btn {
+    color: white;
+}
+
+.heading {
+    margin-top: 6em;
+}
+
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 15px;
+}
+
+.down-arrow {
+    margin: 0 auto;
+}
+
+.contact-link {
+    color: hsl(212, 27%, 19%);
+    background-color: white; 
+    border: 1px solid white;
+    padding: 0.5em 1.25em;
+    border-radius: 20px;
+    transition: all 0.15s ease-in;
+}
+
+.contact-link:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.text-box {
+    max-width: 59%;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.text-box > p {
+    color: hsl(213, 9%, 39%);
+}
+
+.learn-more {
+    color: hsl(212, 27%, 19%);
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    max-width: 100px;
+    transition: all 0.15s ease-in;
+}
+
+.learn-more:hover {
+    color: hsl(212, 27%, 19%);
+}
+
+#top-learn::after {
+    content: '';
+    position: absolute;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 10px;
+    top: 15px;
+    right: 0;
+    left: 0;
+    height: 10px;
+    z-index: -5;
+    transition: all 0.15s ease-in;
+}
+
+#top-learn:hover::after {
+    background-color: hsl(7, 99%, 70%);
+}
+
+#bottom-learn::after {
+    content: '';
+    position: absolute;
+    background-color: hsl(7, 99%, 70%);
+    border-radius: 10px;
+    top: 15px;
+    right: 0;
+    left: 0;
+    height: 10px;
+    z-index: -5;
+    transition: all 0.15s ease-in;
+}
+
+#bottom-learn:hover::after {
+    background-color: hsl(51, 100%, 49%);
+}
+
+#gd-image {
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+#photo-image {
+    background-image: url('images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.img-text {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.graphic-text {
+    color: hsl(167, 40%, 24%);
+}
+
+.photography-text {
+    color: hsl(198, 62%, 26%);
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.testimonials-row {
+    padding: 7em 0;
+}
+
+h4 {
+    color: hsl(210, 4%, 67%);
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+.profile-pic {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    width: 23%;
+    max-width: 454.48px;
+}
+
+.testimonial + .testimonial {
+    margin-left: 1.5em;
+}
+
+.testimonial p {
+    color: hsl(212, 27%, 19%);
+}
+
+.name {
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+
+.job {
+    color: hsl(210, 4%, 67%);
+    font-size: 14px;
+}
+
+footer {
+    background-color: hsl(168, 34%, 41%);
+    padding: 5em 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 2em;
+}
+
+.links-container {
+    margin-bottom: 4em;
+}
+
+.footer-link {
+    color: hsl(167, 40%, 24%);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.15s ease-in;
+}
+
+.footer-link:hover {
+    border-bottom: 1px solid hsl(167, 40%, 24%);
+    color: hsl(167, 40%, 24%);
+}
+
+.footer-link + .footer-link {
+    margin-left: 5em;
+}
+
+.social + .social {
+    margin-left: 1.2em;
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-box {
+        max-width: 80%;
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .learn-more {
+        margin: 0 auto;
+    }
+
+    .testimonial {
+        min-width: 300px;
+    }
+
+    .testimonial + .testimonial {
+        margin-left: 0;
+        margin-top: 3em;
+    }
+
+    .img-text {
+        min-width: 290px;
+    }
+
+    .footer-link + .footer-link {
+        margin-left: 2.3em;
+    }
+
+    .nav-slider {
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        color: black;
+        background-color: white;
+        right: 0;
+        top: 100px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3em 0;
+        transform: translateX(150%);
+        transition: all 0.15s ease-in;
+    }
+
+    .nav-slider::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 50px solid white;
+        border-left: 50px solid transparent;
+        right: 0;
+        top: -50px;
+    }
+
+    .navbar-link {
+        color: hsl(210, 4%, 67%);
+    }
+
+    .navbar-link + .navbar-link {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+
+    .contact-link {
+        color: hsl(212, 27%, 19%);
+        background-color: hsl(51, 100%, 49%); 
+        border: 1px solid hsl(51, 100%, 49%);
+        padding: 0.5em 1.25em;
+        border-radius: 20px;
+        transition: all 0.15s ease-in;
+    }
+
+    .contact-link:hover {
+        background-color: hsl(7, 99%, 70%);
+        border: 1px solid hsl(7, 99%, 70%);
+        color: hsl(212, 27%, 19%);
+    }
+
+    .show-slider {
+        transform: translateX(0);
+    }
+
+}
+
+@media (max-width: 375px ) {
+    h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    :root {
+        font-size: 17px;
+    }
+}
